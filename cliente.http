@@ -1,0 +1,15 @@
+GET http://localhost:5000/professor HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST http://localhost:5000/professor HTTP/1.1
+Content-Type: application/json
+
+{
+    "matr_professor": 1, 
+    "nome_professor": "Jose",
+    "email_professor":"jose@meusite.com"  
+}
+
+###
